@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>Hotfix.Scripting</AssemblyName>
+    <RootNamespace>Hotfix.Scripting</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Deterministic>true</Deterministic>
+    <Optimize>true</Optimize>
+    <DebugType>portable</DebugType>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <!-- The game does not load this folder. Hotfix loads it on first use, together with the compiler libraries -->
+    <OutputPath>..\..\Lib\</OutputPath>
+    <GenerateDependencyFile>false</GenerateDependencyFile>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    <NoWarn>$(NoWarn);CS1701;CS1702;CS0618;CA1416</NoWarn>
+    <RimWorldRoot>$(MSBuildProjectDirectory)\..\..\..\..</RimWorldRoot>
+    <HarmonyDll>$(RimWorldRoot)\..\..\workshop\content\294100\2009463077\1.7\Assemblies\0Harmony.dll</HarmonyDll>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hotfix\Hotfix.csproj" Private="false" />
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(RimWorldRoot)\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(HarmonyDll)</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="5.0.0" />
+    <PackageReference Include="ICSharpCode.Decompiler" Version="9.1.0.7988" />
+  </ItemGroup>
+</Project>

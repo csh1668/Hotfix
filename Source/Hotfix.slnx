@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Hotfix/Hotfix.csproj" />
+  <Project Path="Hotfix.Scripting/Hotfix.Scripting.csproj" />
+</Solution>

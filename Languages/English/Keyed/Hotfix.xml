@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<Hotfix_General>General</Hotfix_General>
+	<Hotfix_ResponseLanguage>Response language</Hotfix_ResponseLanguage>
+	<Hotfix_LanguageOfUser>The user's language</Hotfix_LanguageOfUser>
+	<Hotfix_CustomLanguage>Type a language</Hotfix_CustomLanguage>
+	<Hotfix_Models>Models</Hotfix_Models>
+	<Hotfix_TaskModels>Task models</Hotfix_TaskModels>
+	<Hotfix_Task_Main>Main</Hotfix_Task_Main>
+	<Hotfix_Task_Auto>Approval judge</Hotfix_Task_Auto>
+	<Hotfix_Task_Summary>Summary</Hotfix_Task_Summary>
+	<Hotfix_TaskDesc_Main>The model used in the chat.</Hotfix_TaskDesc_Main>
+	<Hotfix_TaskDesc_Auto>The model used in Auto permission mode to decide whether the agent's action may run.</Hotfix_TaskDesc_Auto>
+	<Hotfix_TaskDesc_Summary>The model used to summarize a long chat.</Hotfix_TaskDesc_Summary>
+	<Hotfix_SameAsMain>Same as main model</Hotfix_SameAsMain>
+	<Hotfix_Profiles>LLM profiles</Hotfix_Profiles>
+	<Hotfix_AddProfile>Add profile</Hotfix_AddProfile>
+	<Hotfix_EditProfile>Edit profile</Hotfix_EditProfile>
+	<Hotfix_NoProfiles>No profiles yet. Press + to add one.</Hotfix_NoProfiles>
+	<Hotfix_ProfileName>Profile {0}</Hotfix_ProfileName>
+	<Hotfix_Duplicate>Duplicate</Hotfix_Duplicate>
+	<Hotfix_Delete>Delete</Hotfix_Delete>
+	<Hotfix_Name>Name</Hotfix_Name>
+	<Hotfix_Provider>Provider</Hotfix_Provider>
+	<Hotfix_ApiKey>API key</Hotfix_ApiKey>
+	<Hotfix_BaseUrl>Base URL</Hotfix_BaseUrl>
+	<Hotfix_Command>Executable</Hotfix_Command>
+	<Hotfix_Model>Model</Hotfix_Model>
+	<Hotfix_FetchModels>Fetch models</Hotfix_FetchModels>
+	<Hotfix_Effort>Effort</Hotfix_Effort>
+	<Hotfix_EffortDefault>Model default</Hotfix_EffortDefault>
+	<Hotfix_Prices>Prices ($ per 1M tokens)</Hotfix_Prices>
+	<Hotfix_PriceInput>Input</Hotfix_PriceInput>
+	<Hotfix_PriceOutput>Output</Hotfix_PriceOutput>
+	<Hotfix_PriceCacheRead>Cached input</Hotfix_PriceCacheRead>
+	<Hotfix_PriceCacheWrite>Cache write</Hotfix_PriceCacheWrite>
+	<Hotfix_ChatNew>New chat</Hotfix_ChatNew>
+	<Hotfix_ChatClose>Close</Hotfix_ChatClose>
+	<Hotfix_ChatOpacity>Opacity</Hotfix_ChatOpacity>
+	<Hotfix_ChatEmpty>AI can make mistakes. Use it with care.</Hotfix_ChatEmpty>
+	<Hotfix_ChatNoProfile>No LLM profile. Add one in the mod settings.</Hotfix_ChatNoProfile>
+	<Hotfix_ChatPlaceholder>Message (Enter to send, Shift+Enter for a new line)</Hotfix_ChatPlaceholder>
+	<Hotfix_ChatSend>Send</Hotfix_ChatSend>
+	<Hotfix_ChatStop>Stop</Hotfix_ChatStop>
+	<Hotfix_ChatWorking>Waiting for a response</Hotfix_ChatWorking>
+	<Hotfix_ChatReasoning>Thinking</Hotfix_ChatReasoning>
+	<Hotfix_ChatRetry>Retry</Hotfix_ChatRetry>
+	<Hotfix_ChatCopy>Copy</Hotfix_ChatCopy>
+	<Hotfix_ChatUsage>{0} in / {1} out</Hotfix_ChatUsage>
+	<Hotfix_ChatNotice_Interrupted>Interrupted</Hotfix_ChatNotice_Interrupted>
+	<Hotfix_ChatNotice_OutputLimit>The response was cut off at the output limit.</Hotfix_ChatNotice_OutputLimit>
+	<Hotfix_ChatNotice_Refused>The model declined to respond.</Hotfix_ChatNotice_Refused>
+	<Hotfix_ContextWindow>Context window</Hotfix_ContextWindow>
+	<Hotfix_ChatSummarizing>Summarizing the conversation</Hotfix_ChatSummarizing>
+	<Hotfix_ChatSummary>Earlier conversation summarized</Hotfix_ChatSummary>
+	<Hotfix_ChatRetrying>Retrying ({0}/{1})</Hotfix_ChatRetrying>
+	<Hotfix_ChatHistory>Past chats</Hotfix_ChatHistory>
+	<Hotfix_ChatHistoryEmpty>No saved chats.</Hotfix_ChatHistoryEmpty>
+	<Hotfix_ChatUnqueue>Cancel</Hotfix_ChatUnqueue>
+	<Hotfix_ChatApproval>Waiting for your approval</Hotfix_ChatApproval>
+	<Hotfix_ChatAllow>Allow (Enter)</Hotfix_ChatAllow>
+	<Hotfix_ChatDeny>Deny (Esc)</Hotfix_ChatDeny>
+	<Hotfix_ChatJudging>Checking approval</Hotfix_ChatJudging>
+	<Hotfix_ChatRunning>Running {0}</Hotfix_ChatRunning>
+	<Hotfix_ChatThinking>Thinking</Hotfix_ChatThinking>
+	<Hotfix_ChatWriting>Writing</Hotfix_ChatWriting>
+	<Hotfix_ChatSeconds>{0}s</Hotfix_ChatSeconds>
+	<Hotfix_ChatMinutes>{0}m {1}s</Hotfix_ChatMinutes>
+	<Hotfix_ChatStopHint>Esc to stop</Hotfix_ChatStopHint>
+	<Hotfix_ChatLines>{0} lines</Hotfix_ChatLines>
+	<Hotfix_ChatMoreLines>Show {0} more lines</Hotfix_ChatMoreLines>
+	<Hotfix_ChatMore>Show more</Hotfix_ChatMore>
+	<Hotfix_ChatLess>Show less</Hotfix_ChatLess>
+	<Hotfix_Mode_Read>Read</Hotfix_Mode_Read>
+	<Hotfix_Mode_Auto>Auto</Hotfix_Mode_Auto>
+	<Hotfix_Mode_Bypass>Bypass</Hotfix_Mode_Bypass>
+	<Hotfix_ModeTip>Sets the permission mode. Click to change.\n\nRead: only reading runs without asking.\nAuto: runs what looks safe and asks about the rest.\nBypass: runs everything without asking. This can be dangerous!</Hotfix_ModeTip>
+	<Hotfix_ChatShot>Attach a screenshot of the game</Hotfix_ChatShot>
+	<Hotfix_ChatImage>Image</Hotfix_ChatImage>	<Hotfix_ChatAsking>Waiting for your answer</Hotfix_ChatAsking>
+	<Hotfix_AskOther>Something else</Hotfix_AskOther>
+	<Hotfix_AskSkip>Skip (Esc)</Hotfix_AskSkip>
+	<Hotfix_AskNext>Next (Enter)</Hotfix_AskNext>
+	<Hotfix_AskSend>Send (Enter)</Hotfix_AskSend>
+	<Hotfix_AskSkipped>Not answered</Hotfix_AskSkipped>
+	<Hotfix_ChatSearch>Search chats</Hotfix_ChatSearch>
+	<Hotfix_ChatSearchEmpty>No chats match.</Hotfix_ChatSearchEmpty>
+	<Hotfix_Prompts>Prompts</Hotfix_Prompts>
+	<Hotfix_Presets>Prompt presets</Hotfix_Presets>
+	<Hotfix_AddPreset>Add preset</Hotfix_AddPreset>
+	<Hotfix_EditPreset>Edit preset</Hotfix_EditPreset>
+	<Hotfix_ViewPreset>View preset</Hotfix_ViewPreset>
+	<Hotfix_PresetName>Preset {0}</Hotfix_PresetName>
+	<Hotfix_Preset_default>Default</Hotfix_Preset_default>
+	<Hotfix_Preset_developer>Developer</Hotfix_Preset_developer>
+	<Hotfix_PresetDesc_default>Explains in plain game terms without code.</Hotfix_PresetDesc_default>
+	<Hotfix_PresetDesc_developer>Explains at the code level.</Hotfix_PresetDesc_developer>
+	<Hotfix_Memory>Memory</Hotfix_Memory>
+	<Hotfix_MemoryEnabled>Enabled</Hotfix_MemoryEnabled>
+	<Hotfix_NoMemories>No memories yet.</Hotfix_NoMemories>
+	<Hotfix_EditMemory>Edit memory</Hotfix_EditMemory>
+	<Hotfix_Description>Description</Hotfix_Description>
+	<Hotfix_Content>Content</Hotfix_Content>
+	<Hotfix_SubMods>Sub-mods</Hotfix_SubMods>
+	<Hotfix_NoSubMods>No sub-mods yet.</Hotfix_NoSubMods>
+	<Hotfix_SubModStatus_On>On</Hotfix_SubModStatus_On>
+	<Hotfix_SubModStatus_Off>Off</Hotfix_SubModStatus_Off>
+	<Hotfix_SubModStatus_Restart>After restart</Hotfix_SubModStatus_Restart>
+	<Hotfix_SubModStatus_Failed>Turned off by an error</Hotfix_SubModStatus_Failed>
+	<Hotfix_SubModStatus_Missing>Required mod missing</Hotfix_SubModStatus_Missing>
+	<Hotfix_SubModStatus_Incompatible>Game version not supported</Hotfix_SubModStatus_Incompatible>
+	<Hotfix_ViewSubMod>Details</Hotfix_ViewSubMod>
+	<Hotfix_SubModInfo>Created {0} · revision {1} · game {2}</Hotfix_SubModInfo>
+	<Hotfix_SubModRequires>Requires: {0}</Hotfix_SubModRequires>
+	<Hotfix_SubModPatched>Patched methods</Hotfix_SubModPatched>
+	<Hotfix_SubModFiles>Files read at game start</Hotfix_SubModFiles>
+	<Hotfix_SubModSource>Source</Hotfix_SubModSource>
+	<Hotfix_OpenFolder>Open folder</Hotfix_OpenFolder>
+	<Hotfix_OpenChat>Open the chat that made it</Hotfix_OpenChat>
+	<Hotfix_SubModLoadFailed>The game failed to load with the sub-mods on, so it was turned off ({0}).</Hotfix_SubModLoadFailed>
+	<Hotfix_SubModsFailed>The game ran into an error while loading, so Hotfix turned off all sub-mods and loaded again.\n\nYou can turn them back on under Hotfix &gt; Sub-mods in the mod settings.</Hotfix_SubModsFailed>
+	<Hotfix_SubModsSkipped>The last game start did not finish, so Hotfix did not load the sub-mods this time.\n\nIf a sub-mod is the cause, turn it off under Hotfix &gt; Sub-mods in the mod settings.</Hotfix_SubModsSkipped>
+</LanguageData>

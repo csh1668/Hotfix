@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<Hotfix_General>일반</Hotfix_General>
+	<Hotfix_ResponseLanguage>답변 언어</Hotfix_ResponseLanguage>
+	<Hotfix_LanguageOfUser>사용자가 쓰는 언어</Hotfix_LanguageOfUser>
+	<Hotfix_CustomLanguage>직접 입력</Hotfix_CustomLanguage>
+	<Hotfix_Models>모델</Hotfix_Models>
+	<Hotfix_TaskModels>작업 모델</Hotfix_TaskModels>
+	<Hotfix_Task_Main>메인</Hotfix_Task_Main>
+	<Hotfix_Task_Auto>승인 판정</Hotfix_Task_Auto>
+	<Hotfix_Task_Summary>요약</Hotfix_Task_Summary>
+	<Hotfix_TaskDesc_Main>채팅에서 사용되는 모델입니다.</Hotfix_TaskDesc_Main>
+	<Hotfix_TaskDesc_Auto>자동 승인 모드에서 에이전트의 작업을 실행해도 되는지 판정할 때 사용되는 모델입니다.</Hotfix_TaskDesc_Auto>
+	<Hotfix_TaskDesc_Summary>길어진 대화를 요약할 때 사용되는 모델입니다.</Hotfix_TaskDesc_Summary>
+	<Hotfix_SameAsMain>메인 모델과 동일</Hotfix_SameAsMain>
+	<Hotfix_Profiles>LLM 프로필</Hotfix_Profiles>
+	<Hotfix_AddProfile>프로필 추가</Hotfix_AddProfile>
+	<Hotfix_EditProfile>프로필 수정</Hotfix_EditProfile>
+	<Hotfix_NoProfiles>프로필이 없습니다. +를 눌러 추가하세요.</Hotfix_NoProfiles>
+	<Hotfix_ProfileName>프로필 {0}</Hotfix_ProfileName>
+	<Hotfix_Duplicate>복제</Hotfix_Duplicate>
+	<Hotfix_Delete>삭제</Hotfix_Delete>
+	<Hotfix_Name>이름</Hotfix_Name>
+	<Hotfix_Provider>제공자</Hotfix_Provider>
+	<Hotfix_ApiKey>API 키</Hotfix_ApiKey>
+	<Hotfix_BaseUrl>Base URL</Hotfix_BaseUrl>
+	<Hotfix_Command>실행 파일</Hotfix_Command>
+	<Hotfix_Model>모델</Hotfix_Model>
+	<Hotfix_FetchModels>모델 불러오기</Hotfix_FetchModels>
+	<Hotfix_Effort>Effort</Hotfix_Effort>
+	<Hotfix_EffortDefault>모델 기본값</Hotfix_EffortDefault>
+	<Hotfix_Prices>가격 ($ / 100만 토큰)</Hotfix_Prices>
+	<Hotfix_PriceInput>입력</Hotfix_PriceInput>
+	<Hotfix_PriceOutput>출력</Hotfix_PriceOutput>
+	<Hotfix_PriceCacheRead>캐시 입력</Hotfix_PriceCacheRead>
+	<Hotfix_PriceCacheWrite>캐시 쓰기</Hotfix_PriceCacheWrite>
+	<Hotfix_ChatNew>새 채팅</Hotfix_ChatNew>
+	<Hotfix_ChatClose>닫기</Hotfix_ChatClose>
+	<Hotfix_ChatOpacity>불투명도</Hotfix_ChatOpacity>
+	<Hotfix_ChatEmpty>AI는 실수를 할 수 있습니다. 사용에 유의하세요.</Hotfix_ChatEmpty>
+	<Hotfix_ChatNoProfile>LLM 프로필이 없습니다. 모드 설정에서 추가하세요.</Hotfix_ChatNoProfile>
+	<Hotfix_ChatPlaceholder>메시지 입력 (Enter 전송, Shift+Enter 줄바꿈)</Hotfix_ChatPlaceholder>
+	<Hotfix_ChatSend>보내기</Hotfix_ChatSend>
+	<Hotfix_ChatStop>중단</Hotfix_ChatStop>
+	<Hotfix_ChatWorking>응답을 기다리는 중</Hotfix_ChatWorking>
+	<Hotfix_ChatReasoning>생각</Hotfix_ChatReasoning>
+	<Hotfix_ChatRetry>다시 시도</Hotfix_ChatRetry>
+	<Hotfix_ChatCopy>복사</Hotfix_ChatCopy>
+	<Hotfix_ChatUsage>입력 {0} / 출력 {1}</Hotfix_ChatUsage>
+	<Hotfix_ChatNotice_Interrupted>중단됨</Hotfix_ChatNotice_Interrupted>
+	<Hotfix_ChatNotice_OutputLimit>출력 한도에서 응답이 잘렸습니다.</Hotfix_ChatNotice_OutputLimit>
+	<Hotfix_ChatNotice_Refused>모델이 응답을 거부했습니다.</Hotfix_ChatNotice_Refused>
+	<Hotfix_ContextWindow>컨텍스트 창</Hotfix_ContextWindow>
+	<Hotfix_ChatSummarizing>대화를 요약하는 중</Hotfix_ChatSummarizing>
+	<Hotfix_ChatSummary>이전 대화 요약됨</Hotfix_ChatSummary>
+	<Hotfix_ChatRetrying>다시 시도하는 중 ({0}/{1})</Hotfix_ChatRetrying>
+	<Hotfix_ChatHistory>지난 대화</Hotfix_ChatHistory>
+	<Hotfix_ChatHistoryEmpty>저장된 대화가 없습니다.</Hotfix_ChatHistoryEmpty>
+	<Hotfix_ChatUnqueue>취소</Hotfix_ChatUnqueue>
+	<Hotfix_ChatApproval>승인을 기다리는 중</Hotfix_ChatApproval>
+	<Hotfix_ChatAllow>허용 (Enter)</Hotfix_ChatAllow>
+	<Hotfix_ChatDeny>거부 (Esc)</Hotfix_ChatDeny>
+	<Hotfix_ChatJudging>승인 판정 중</Hotfix_ChatJudging>
+	<Hotfix_ChatRunning>{0} 실행 중</Hotfix_ChatRunning>
+	<Hotfix_ChatThinking>생각하는 중</Hotfix_ChatThinking>
+	<Hotfix_ChatWriting>작성 중</Hotfix_ChatWriting>
+	<Hotfix_ChatSeconds>{0}초</Hotfix_ChatSeconds>
+	<Hotfix_ChatMinutes>{0}분 {1}초</Hotfix_ChatMinutes>
+	<Hotfix_ChatStopHint>Esc로 중단</Hotfix_ChatStopHint>
+	<Hotfix_ChatLines>{0}줄</Hotfix_ChatLines>
+	<Hotfix_ChatMoreLines>{0}줄 더 보기</Hotfix_ChatMoreLines>
+	<Hotfix_ChatMore>더 보기</Hotfix_ChatMore>
+	<Hotfix_ChatLess>접기</Hotfix_ChatLess>
+	<Hotfix_Mode_Read>읽기</Hotfix_Mode_Read>
+	<Hotfix_Mode_Auto>자동</Hotfix_Mode_Auto>
+	<Hotfix_Mode_Bypass>모두 허용</Hotfix_Mode_Bypass>
+	<Hotfix_ModeTip>승인 모드를 정합니다. 누르면 바뀝니다.\n\n읽기: 읽기 도구만 묻지 않고 실행합니다.\n자동: 안전해 보이는 것은 실행하고 나머지는 묻습니다.\n모두 허용: 묻지 않고 전부 실행합니다. 위험할 수 있습니다!</Hotfix_ModeTip>
+	<Hotfix_ChatShot>게임 화면을 찍어 첨부</Hotfix_ChatShot>
+	<Hotfix_ChatImage>그림</Hotfix_ChatImage>
+	<Hotfix_ChatAsking>답을 기다리는 중</Hotfix_ChatAsking>
+	<Hotfix_AskOther>직접 입력</Hotfix_AskOther>
+	<Hotfix_AskSkip>건너뛰기 (Esc)</Hotfix_AskSkip>
+	<Hotfix_AskNext>다음 (Enter)</Hotfix_AskNext>
+	<Hotfix_AskSend>보내기 (Enter)</Hotfix_AskSend>
+	<Hotfix_AskSkipped>답하지 않음</Hotfix_AskSkipped>
+	<Hotfix_ChatSearch>대화 검색</Hotfix_ChatSearch>
+	<Hotfix_ChatSearchEmpty>검색 결과가 없습니다.</Hotfix_ChatSearchEmpty>
+	<Hotfix_Prompts>프롬프트</Hotfix_Prompts>
+	<Hotfix_Presets>프롬프트 프리셋</Hotfix_Presets>
+	<Hotfix_AddPreset>프리셋 추가</Hotfix_AddPreset>
+	<Hotfix_EditPreset>프리셋 수정</Hotfix_EditPreset>
+	<Hotfix_ViewPreset>프리셋 보기</Hotfix_ViewPreset>
+	<Hotfix_PresetName>프리셋 {0}</Hotfix_PresetName>
+	<Hotfix_Preset_default>기본</Hotfix_Preset_default>
+	<Hotfix_Preset_developer>개발자</Hotfix_Preset_developer>
+	<Hotfix_PresetDesc_default>코드 없이 게임 용어로 쉽게 설명합니다.</Hotfix_PresetDesc_default>
+	<Hotfix_PresetDesc_developer>코드 수준으로 설명합니다.</Hotfix_PresetDesc_developer>
+	<Hotfix_Memory>메모리</Hotfix_Memory>
+	<Hotfix_MemoryEnabled>사용</Hotfix_MemoryEnabled>
+	<Hotfix_NoMemories>메모리가 없습니다.</Hotfix_NoMemories>
+	<Hotfix_EditMemory>메모리 수정</Hotfix_EditMemory>
+	<Hotfix_Description>설명</Hotfix_Description>
+	<Hotfix_Content>내용</Hotfix_Content>
+	<Hotfix_SubMods>서브 모드</Hotfix_SubMods>
+	<Hotfix_NoSubMods>서브 모드가 없습니다.</Hotfix_NoSubMods>
+	<Hotfix_SubModStatus_On>켜짐</Hotfix_SubModStatus_On>
+	<Hotfix_SubModStatus_Off>꺼짐</Hotfix_SubModStatus_Off>
+	<Hotfix_SubModStatus_Restart>재시작 후 적용</Hotfix_SubModStatus_Restart>
+	<Hotfix_SubModStatus_Failed>문제로 꺼짐</Hotfix_SubModStatus_Failed>
+	<Hotfix_SubModStatus_Missing>필요한 모드 없음</Hotfix_SubModStatus_Missing>
+	<Hotfix_SubModStatus_Incompatible>지원하지 않는 게임 버전</Hotfix_SubModStatus_Incompatible>
+	<Hotfix_ViewSubMod>상세 보기</Hotfix_ViewSubMod>
+	<Hotfix_SubModInfo>만든 시각 {0} · 빌드 {1}회 · 게임 {2}</Hotfix_SubModInfo>
+	<Hotfix_SubModRequires>필요한 모드: {0}</Hotfix_SubModRequires>
+	<Hotfix_SubModPatched>패치한 메서드</Hotfix_SubModPatched>
+	<Hotfix_SubModFiles>게임을 켤 때 읽는 파일</Hotfix_SubModFiles>
+	<Hotfix_SubModSource>소스</Hotfix_SubModSource>
+	<Hotfix_OpenFolder>폴더 열기</Hotfix_OpenFolder>
+	<Hotfix_OpenChat>만든 대화 열기</Hotfix_OpenChat>
+	<Hotfix_SubModLoadFailed>서브 모드를 켠 채로는 게임을 불러오지 못해서 껐습니다({0}).</Hotfix_SubModLoadFailed>
+	<Hotfix_SubModsFailed>게임을 불러오는 중에 오류가 나서, Hotfix가 서브 모드를 모두 끄고 다시 불러왔습니다.\n\n모드 설정의 Hotfix &gt; 서브 모드에서 다시 켤 수 있습니다.</Hotfix_SubModsFailed>
+	<Hotfix_SubModsSkipped>지난 게임 시작이 끝나지 않아서, 이번에는 Hotfix가 서브 모드를 읽지 않았습니다.\n\n서브 모드가 원인이라면 모드 설정의 Hotfix &gt; 서브 모드에서 그 서브 모드를 꺼 주세요.</Hotfix_SubModsSkipped>
+</LanguageData>

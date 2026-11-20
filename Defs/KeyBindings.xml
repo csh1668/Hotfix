@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<KeyBindingDef>
+		<defName>Hotfix_ToggleChat</defName>
+		<label>toggle Hotfix chat</label>
+		<category>Game</category>
+		<defaultKeyCodeA>Backslash</defaultKeyCodeA>
+	</KeyBindingDef>
+</Defs>
